@@ -12,7 +12,7 @@ import "./style.css";
     if(blog){
       setBlog(blog);
     }
-  }, []);
+  }, [id]);
   return (
     <div>
       {Blog ? <div className="blog-wrap">
